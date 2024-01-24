@@ -11,7 +11,7 @@ function App() {
   return (
       <div className="">
         <Header />
-        <div className={`flex flex-col py-10 px-20 ${ dark ? 'bg-white' : "bg-gray-600 text-white"}`}>
+        <div className={`flex flex-col py-10 h-screen px-20 ${ dark ? 'bg-white' : "bg-gray-600 text-white"}`}>
           <div className="uppercase text-3xl font-bold text-center">blog app</div>
           <p className="text-xl mt-5 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vel quo iste corporis nihil voluptatem?
             Est fuga pariatur placeat adipisci earum esse temporibus dolores
